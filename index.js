@@ -22,5 +22,8 @@ export const createAMarketplace= {
   smartContractExplanation: smartContractExplanationPath,
   transactionCode: transactionPath,
   transactionExplanation: transactionExplanationPath,
+  filters: {
+    difficulty: "intermediate"
+  }
 };
 
