@@ -1,5 +1,4 @@
-The NFT Storefront contract is used to be able to list NFTS that a user owns for sale on your marketplace. Users can also purchase other NFTS, borrow listings, and do tons of other things related to the Storefront contract.
 
-Before doing any of this, you need to create a Storefront resource from the NFTStorefront contract and save it to your account. Once that resource is saved you then have access to the Storefront resource which will give you the ability to create listings, remove listings, getListings, borrowListings, cleanupListings, and destroy your own Storefront.
+The NFT Storefront contract enables users to list their NFTs for sale on a marketplace, purchase NFTs from others, borrow listings, and perform various other operations related to managing and interacting with the Storefront. To use these features, a user must first create a Storefront resource from the NFT Storefront contract and save it to their account. This Storefront resource acts as a gateway to functionalities such as creating and removing listings, retrieving and borrowing listings, cleaning up outdated listings, and even destroying the Storefront itself when no longer needed.
 
-The createStorefront function allows anyone to create a storefront and save it to their account.
+The createStorefront function facilitates this process, allowing anyone to easily create and save a Storefront resource to their account, unlocking full access to the Storefront’s capabilities.

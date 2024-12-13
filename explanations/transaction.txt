@@ -1,1 +1,1 @@
-Here you are simply calling the createStorefront function to save a storefront to your account.
+This transaction demonstrates how to set up a user account to participate in the marketplace by creating and saving a Storefront resource using the NFTStorefront contract. The createStorefront function is called to generate a new Storefront resource, which is then stored in the account's storage at the predefined NFTStorefront.StorefrontStoragePath. 

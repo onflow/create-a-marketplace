@@ -9,7 +9,7 @@ const transactionPath = `${recipe}/cadence/transaction.cdc`;
 const smartContractExplanationPath = `${recipe}/explanations/contract.txt`;
 const transactionExplanationPath = `${recipe}/explanations/transaction.txt`;
 
-export const createAMarketplace= {
+export const createAMarketplace = {
   slug: recipe,
   title: "Create a Marketplace",
   createdAt: new Date(2022, 9, 14),
@@ -23,7 +23,6 @@ export const createAMarketplace= {
   transactionCode: transactionPath,
   transactionExplanation: transactionExplanationPath,
   filters: {
-    difficulty: "intermediate"
-  }
+    difficulty: "intermediate",
+  },
 };
-
