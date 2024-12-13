@@ -36,6 +36,14 @@
 				"testnet": "631e88ae7f1d7c20"
 			}
 		},
+		"NFTStorefrontV2": {
+			"source": "mainnet://4eb8a10cb9f87357.NFTStorefrontV2",
+			"hash": "f455b556f350f20b71de45ed71da42f0c60ab4d003e4e164e9f6e9d35e3c4c4b",
+			"aliases": {
+				"mainnet": "4eb8a10cb9f87357",
+				"testnet": "2d55b98eb200daef"
+			}
+		},
 		"NonFungibleToken": {
 			"source": "mainnet://1d7e57aa55817448.NonFungibleToken",
 			"hash": "b63f10e00d1a814492822652dac7c0574428a200e4c26cb3c832c4829e2778f0",
@@ -73,7 +81,8 @@
 	"deployments": {
 		"emulator": {
 			"emulator-account": [
-				"NFTStorefront"
+				"NFTStorefront",
+				"NFTStorefrontV2"
 			]
 		}
 	}
